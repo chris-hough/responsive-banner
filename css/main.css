@@ -1,6 +1,6 @@
 html {
   font-family: Georgia, serif;
-  color: #fff;
+  color: #efefef;
   background-color: #495562;
 }
 
@@ -32,13 +32,18 @@ img {
 
 @media only screen and (min-width: 60em) {
 
+  html {
+    color: #fff;
+    background-color: transparent;
+  }
+
   .btn {
     border-color: #fff;
   }
 
   .banner {
     position: relative;
-    background-image:linear-gradient(to bottom, rgba(73, 85, 98, 0), rgba(73, 85, 98, .9));
+    background-image: linear-gradient(to bottom, rgba(73, 85, 98, 0), rgba(73, 85, 98, .9));
   }
 
   .banner-text {
