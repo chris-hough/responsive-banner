@@ -9,11 +9,6 @@ html {
   border-color: #97a49b;
 }
 
-body {
-
-
-}
-
 .banner-img {
   max-height: 500px;
   overflow: hidden;
@@ -51,6 +46,5 @@ img {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-
   }
 }
